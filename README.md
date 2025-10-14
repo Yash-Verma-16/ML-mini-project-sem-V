@@ -81,15 +81,18 @@ Follow these steps to replicate the project's results.
 
 ### 2. Installation
 First, clone the repository to your local machine and navigate into the project directory.
+
 ```bash
 git clone <your-repository-url>
-cd <project-directory-name>```
+cd <project-directory-name>
+```
 
 Next, install all the required Python libraries using the requirements.txt file.
 
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ### 3. Data Setup (A one-time process)
 
@@ -106,7 +109,9 @@ pip install -r requirements.txt```
 
 
 ```bash
-python merge_data.py```
+python merge_data.py
+```
+
 
 This will create `training_data.csv` and `testing_data.csv` in your main project directory.
 
@@ -115,7 +120,8 @@ With the data prepared, you can now run the main prediction script. This will tr
 
 
 ```bash
-python tennis_predictor.py```
+python tennis_predictor.py
+```
 
 *Note: The script performs a `GridSearchCV` to find the best model parameters, which may take several minutes to complete.*
 
@@ -124,3 +130,4 @@ python tennis_predictor.py```
 * [cite_start]**Advanced Feature Engineering**: Incorporate more nuanced features, such as player fatigue (recent matches played), performance on specific surfaces (clay, grass, hard), and momentum metrics[cite: 64].
 * [cite_start]**Explore Alternative Models**: Experiment with other powerful models like XGBoost, LightGBM, or deep learning architectures to potentially improve calibration and accuracy[cite: 65].
 * [cite_start]**Dynamic Bet Sizing**: Enhance the betting strategy to vary the size of the wager based on the model's confidence level, which could further optimize the profit margin[cite: 66].
+
