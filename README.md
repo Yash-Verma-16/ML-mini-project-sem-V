@@ -28,7 +28,7 @@ The model was evaluated on a separate test set of 707 matches from the 2016 and 
 
 The key finding of this project is that a well-calibrated model combined with a selective betting strategy can be highly profitable (nearly 3x the original report's profit), even with a modest prediction accuracy.
 
-![Calibration Curve Plot](Calibration_Curve.png)
+![Calibration Curve Plot](Caliberation_Curve.png)
 
 ---
 
@@ -46,3 +46,4 @@ git clone <your-repository-url>
 cd <your-repository-name>
 
 pip install -r requirements.txt
+
