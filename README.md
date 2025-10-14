@@ -26,7 +26,9 @@ The model was evaluated on a separate test set of 707 matches from the 2016 and 
 | Total Winnings          | $65.80                |
 | **Profit per Match (ROI)** | **9.31%** |
 
-The key finding of this project is that a well-calibrated model combined with a selective betting strategy can be highly profitable (nearly 3x the original report's profit), even with a modest prediction accuracy.
+The key finding of this project is that a well-calibrated model combined with a selective betting strategy can be highly profitable (nearly 3x the original report's profit), even with a modest prediction accuracy. The chart below illustrates the cumulative winnings over the 512 matches bet on during the test period.
+
+![Cumulative Winnings from Betting Simulation](Figure_1.png)
 
 ---
 
