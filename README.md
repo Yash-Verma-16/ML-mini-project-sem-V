@@ -1,9 +1,9 @@
 # Machine Learning for Tennis Match Prediction and Betting (Improved Model)
 
-##Team Details
+## Team Details
 
-###Member 1 - Yash Verma (PES1UG23AM910) 
-###Member 1 - Vraj Detroja (PES1UG23AM914) 
+### Member 1 - Yash Verma (PES1UG23AM910) 
+### Member 1 - Vraj Detroja (PES1UG23AM914) 
 
 This repository contains the source code for a machine learning project that predicts the outcomes of professional ATP tennis matches and implements an advanced betting strategy to capitalize on these predictions. The final model achieves a **9.31% profit per match** when tested on the 2016-2017 ATP seasons, demonstrating a significant improvement over baseline models.
 
@@ -137,6 +137,7 @@ python tennis_predictor.py
 * **Advanced Feature Engineering**: Incorporate more nuanced features, such as player fatigue (recent matches played), performance on specific surfaces (clay, grass, hard), and momentum metrics.
 * **Explore Alternative Models**: Experiment with other powerful models like XGBoost, LightGBM, or deep learning architectures to potentially improve calibration and accuracy.
 * **Dynamic Bet Sizing**: Enhance the betting strategy to vary the size of the wager based on the model's confidence level, which could further optimize the profit margin.
+
 
 
 
